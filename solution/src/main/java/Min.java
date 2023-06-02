@@ -67,6 +67,7 @@ public class Min {
                 }
             } 
             index++;
+            //Wertet aus, ob der neue Wert höher als der alte ist
             if(!ergebnisTemp.equals("")){
                 if(Double.parseDouble(ergebnisTemp) < ergebnis){
                     ergebnis = Double.parseDouble(ergebnisTemp);

@@ -83,6 +83,8 @@ public class Average {
             } 
             index++;
         }
+
+        //Bildung des Durschschnitts
         ergebnis = ergebnis / counter;
         return Double.toString(ergebnis);
     }

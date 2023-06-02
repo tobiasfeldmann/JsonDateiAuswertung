@@ -70,8 +70,9 @@ public class Sum {
                 }
             } 
             index++;
+            //Berechnet die Summe
             if(!ergebnisTemp.equals("")){
-                if(Double.parseDouble(ergebnisTemp) < ergebnis){
+                if(ergebnis != 0){
                     ergebnis = ergebnis + Double.parseDouble(ergebnisTemp);
                     ergebnisTemp = "";
                 }
